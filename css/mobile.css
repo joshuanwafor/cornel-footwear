@@ -1,0 +1,111 @@
+.container {
+    max-width: 370px;
+}
+
+.container-fluid {
+    width: 380px;
+}
+
+#navbar ul {
+    display: block;
+    margin-top: -3rem;
+}
+
+#navbar .logo img {
+    width: 8rem;
+    height: 10rem;
+    margin-left: 2rem;
+}
+
+#navbar .logo-content h4 {
+    display: none;
+}
+
+#navbar .logo-content h1 {
+    font-size: 20px;
+}
+
+#navbar {
+    justify-content: space-evenly;
+}
+
+
+/* styling social media handles */
+
+.social {
+    height: 5.5rem;
+}
+
+
+/* .container {
+    display: none;
+} */
+
+
+/* styling slide2 */
+
+.container .slide2 {
+    display: none;
+}
+
+.slider-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.prev {
+    padding-top: 5rem;
+    position: relative;
+    margin-right: -55px;
+    z-index: 100;
+}
+
+.next {
+    padding-top: 5rem;
+    position: absolute;
+    margin-left: 29rem;
+    z-index: 100;
+}
+
+
+/* styling gallery */
+
+.container .gallery .gallery-content {
+    width: 335px;
+    align-content: center;
+}
+
+.container .gallery .gallery-content img {
+    width: 160px;
+    /* display: none; */
+}
+
+.ifraime-container {
+    width: 90%;
+    height: 400px;
+}
+
+.container1 .shop {
+    display: block;
+}
+
+.shop-content {
+    display: flex;
+}
+
+.shop-content img {
+    width: 3rem;
+}
+
+.container1 .shop img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+/* .container1 .shop img {
+    width: 300px;
+    height: 200px;
+} */

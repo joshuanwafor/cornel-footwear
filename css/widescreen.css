@@ -1,0 +1,45 @@
+.container .gallery .gallery-content {
+    width: 890px;
+}
+
+.container .gallery .gallery-content img {
+    width: 218px;
+}
+
+.slider-inner img.active {
+    width: 290px;
+    height: 290px;
+    border-radius: 10px;
+}
+
+.slider-inner {
+    width: 295px;
+    height: 300px;
+    padding: 1px;
+}
+
+.ifraime-container {
+    width: 90%;
+    height: 400px;
+}
+
+@media (min-width:1100px) and (max-width:1220px) {
+    .slider-inner img.active {
+        width: 250px;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .slider-inner {
+        width: 250px;
+        height: 300px;
+        padding: 1px;
+    }
+    .prev {
+        padding-top: 10rem;
+        margin-right: -25px;
+    }
+    .next {
+        padding-top: 10rem;
+        margin-left: -25px;
+    }
+}
