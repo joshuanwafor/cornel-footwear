@@ -55,6 +55,11 @@
     text-align: center;
 }
 
+#main-content .content {
+    width: 300px;
+    height: 600px;
+}
+
 .prev {
     padding-top: 5rem;
     position: relative;
@@ -65,8 +70,12 @@
 .next {
     padding-top: 5rem;
     position: absolute;
-    margin-left: 29rem;
+    margin-left: 250px;
     z-index: 100;
+}
+
+.slider-inner img.active {
+    width: 250px;
 }
 
 
